@@ -1,5 +1,5 @@
 import { ImPure } from "@design-express/fabrica";
-import { RechartAreaComponent } from "../components/rechart";
+import { RechartAreaComponent } from "../../components/area";
 
 export class AreaChart extends ImPure {
   static path = "Recharts/chart";
