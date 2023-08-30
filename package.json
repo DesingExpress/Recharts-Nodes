@@ -1,14 +1,16 @@
 {
-  "name": "@user/rechart",
+  "name": "@NEXIVIL/recharts",
   "version": "0.1.0",
   "private": false,
-  "description": "",
+  "description": "Recharts Nodes",
   "license": "MIT",
   "files": [
     "build"
   ],
   "dependencies": {
-    "@design-express/node-scripts": "1.0.7"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@design-express/node-scripts": "1.0.7",
+    "recharts": "^2.8.0"
   },
   "scripts": {
     "start": "node-scripts start",
