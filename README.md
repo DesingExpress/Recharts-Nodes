@@ -1,4 +1,5 @@
 ![ReChart-logo](https://raw.github.com/DesingExpress/Recharts-Nodes/master/assets/logo.png)
+
 # [Recharts](https://recharts.org/) Nodes
 
 Recharts is a **Redefined** chart library built with [React](https://facebook.github.io/react/) and [D3](http://d3js.org).
@@ -24,7 +25,7 @@ The main purpose of this library is to help you to write charts in React applica
     { "label": "yKey" }
   ],
   "outputs": [
-    { "label": "component" },
+    { "label": "component" }
   ]
 }
 ```
@@ -63,7 +64,7 @@ The main purpose of this library is to help you to write charts in React applica
     { "label": "key" },
     { "label": "domain" },
     { "label": "tickFormatter" },
-    { "label": "scale" },
+    { "label": "scale" }
   ],
   "outputs": [{ "label": "xAxis" }]
 }
@@ -108,7 +109,7 @@ The main purpose of this library is to help you to write charts in React applica
     { "label": "key" },
     { "label": "domain" },
     { "label": "tickFormatter" },
-    { "label": "scale" },
+    { "label": "scale" }
   ],
   "outputs": [{ "label": "yAxis" }]
 }
