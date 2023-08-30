@@ -1,3 +1,4 @@
+![ReChart-logo](https://raw.github.com/DesingExpress/Recharts-Nodes/master/assets/logo.png)
 # [Recharts](https://recharts.org/) Nodes
 
 Recharts is a **Redefined** chart library built with [React](https://facebook.github.io/react/) and [D3](http://d3js.org).
@@ -36,15 +37,15 @@ The main purpose of this library is to help you to write charts in React applica
 
 #### Inputs
 
-| Label               | Type               | Description                                                                         |
-| ------------------- | ------------------ | ----------------------------------------------------------------------------------- |
-| **config**          | `object`           | The object with properties of [AreaChart](https://recharts.org/en-US/api/AreaChart) |
-| **data**            | `array`            | The source data, in which each element is an object.                                |
-| **color**           | `string`           | The stroke color. If "none", no line will be drawn.                                 |
-| [**xAxis**](#xaxis) | `rechart::x_axis`  | [XAxis](https://recharts.org/en-US/api/XAxis) component.                            |
-| [**yAxis**](#yaxis) | `rechart::y_axis`  | [YAxis](https://recharts.org/en-US/api/YAxis) component.                            |
-| **xKey**            | `string` , `array` | The key of data displayed in the x-axis.                                            |
-| **yKey**            | `string` , `array` | The key of data displayed in the y-axis.                                            |
+| Label                    | Type               | Description                                                                         |
+| ------------------------ | ------------------ | ----------------------------------------------------------------------------------- |
+| [**config**](1-template) | `object`           | The object with properties of [AreaChart](https://recharts.org/en-US/api/AreaChart) |
+| [**data**](1-template)   | `array`            | The source data, in which each element is an object.                                |
+| [**color**](1-template)  | `string`           | The stroke color. If "none", no line will be drawn.                                 |
+| [**xAxis**](#1-template) | `rechart::x_axis`  | [XAxis](https://recharts.org/en-US/api/XAxis) component.                            |
+| [**yAxis**](#1-template) | `rechart::y_axis`  | [YAxis](https://recharts.org/en-US/api/YAxis) component.                            |
+| [**xKey**](1-template)   | `string` , `array` | The key of data displayed in the x-axis.                                            |
+| [**yKey**](1-template)   | `string` , `array` | The key of data displayed in the y-axis.                                            |
 
 #### Outputs
 
