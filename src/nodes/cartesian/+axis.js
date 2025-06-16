@@ -50,7 +50,7 @@ export class xAxis extends ImPure {
     const _scale = this.getInputData(5) ?? "auto";
     this.setOutputData(
       1,
-      <XAxis {..._props} type={type} dataKey={_key} domain={_domain} tickFormatter={_tickFormatter} scale={_scale} orientation={orientation} />
+      <XAxis type={type} dataKey={_key} domain={_domain} tickFormatter={_tickFormatter} scale={_scale} orientation={orientation} {..._props} />
     );
   }
 }
@@ -104,7 +104,7 @@ export class yAxis extends ImPure {
     const _scale = this.getInputData(5) ?? "auto";
     this.setOutputData(
       1,
-      <YAxis {..._props} type={type} dataKey={_key} domain={_domain} tickFormatter={_tickFormatter} scale={_scale} orientation={orientation} />
+      <YAxis type={type} dataKey={_key} domain={_domain} tickFormatter={_tickFormatter} scale={_scale} orientation={orientation} {..._props} />
     );
   }
 }
